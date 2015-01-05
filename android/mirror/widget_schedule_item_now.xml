@@ -1,0 +1,22 @@
+<!-- [ Mirror metadata ] generatedAt: 1420489423011 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/widget_schedule_item_now">
+        <!-- ImageView Examples:
+        <background_image src="@drawable/image_resource" />
+        <background_image src="relative_path/image.jpg" /> -->
+        <background_image />
+        <!-- TextView Examples:
+        <start_time text="@string/string_resource" />
+        <start_time text="Text literal" textSize="14sp" /> -->
+        <start_time />
+        <end_time />
+        <conflict_warning />
+        <slot_title />
+        <slot_subtitle />
+    </_content>
+</screen>

@@ -75,6 +75,7 @@ public class CollectionView extends ListView {
             mContentTopClearance = xmlArgs.getDimensionPixelSize(
                     R.styleable.CollectionView_contentTopClearance, 0);
         }
+        
     }
 
     public void updateInventory(final Inventory inv) {

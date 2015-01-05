@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1420489422968 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/navdrawer">
+        <!-- ImageView Examples:
+        <profile_cover_image src="@drawable/image_resource" />
+        <profile_cover_image src="relative_path/image.jpg" /> -->
+        <profile_cover_image />
+        <expand_account_box_indicator />
+        <!-- TextView Examples:
+        <profile_email_text text="@string/string_resource" />
+        <profile_email_text text="Text literal" textSize="14sp" /> -->
+        <profile_email_text />
+        <profile_name_text />
+    </_content>
+</screen>

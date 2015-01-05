@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1420489422935 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/list_item_session_summarized">
+        <!-- ImageView Examples:
+        <session_photo_colored src="@drawable/image_resource" />
+        <session_photo_colored src="relative_path/image.jpg" /> -->
+        <session_photo_colored />
+        <!-- TextView Examples:
+        <session_category text="@string/string_resource" />
+        <session_category text="Text literal" textSize="14sp" /> -->
+        <session_category />
+        <session_title />
+        <session_subtitle_short />
+        <indicator_in_schedule />
+    </_content>
+</screen>

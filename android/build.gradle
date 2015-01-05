@@ -28,7 +28,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 21
     }
 
@@ -68,8 +68,16 @@ android {
     }
 }
 
+//TODO remove after MirrorSandbox is released as a Maven repo
+repositories {
+    flatDir {
+        dir '/Users/lintonye/git-repos/layout_previewer/MirrorSandbox/build/outputs/aar'
+    }
+}
+
 dependencies {
     wearApp project(':Wearable')
+    compile 'com.jimulabs.mirrorsandbox:MirrorSandbox:2.3.1@aar'
     compile 'com.google.android.gms:play-services:6.1.+'
     compile 'com.android.support:support-v13:21.+'
     compile 'com.android.support:appcompat-v7:21.+'

@@ -1,0 +1,10 @@
+<!-- [ Mirror metadata ] generatedAt: 1420051432420 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen sandbox="com.google.samples.apps.iosched.ui.ExpertsDirectoryBox">
+    <_content layout="@layout/fragment_experts_directory">
+    </_content>
+</screen>

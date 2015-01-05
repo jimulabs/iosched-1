@@ -1,0 +1,16 @@
+<!-- [ Mirror metadata ] generatedAt: 1420489422948 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/map_info_session">
+        <!-- TextView Examples:
+        <map_info_roomtitle text="@string/string_resource" />
+        <map_info_roomtitle text="Text literal" textSize="14sp" /> -->
+        <map_info_roomtitle />
+        <map_info_session_now />
+        <map_info_session_next />
+    </_content>
+</screen>
