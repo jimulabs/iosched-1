@@ -1,0 +1,18 @@
+<!-- [ Mirror metadata ] generatedAt: 1426050998281 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen sandbox="com.google.samples.apps.iosched.iowear.FinishBox">
+    <_content layout="@layout/activity_finish">
+        <!-- ImageView Examples:
+        <ok src="@drawable/image_resource" />
+        <ok src="relative_path/image.jpg" /> -->
+        <ok />
+        <!-- TextView Examples:
+        <thanks_text text="@string/string_resource" />
+        <thanks_text text="Text literal" textSize="14sp" /> -->
+        <thanks_text />
+    </_content>
+</screen>
